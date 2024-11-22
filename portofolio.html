@@ -1,0 +1,336 @@
+<html>
+ <head>
+  <title>
+   Portfolio
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0d0d0d;
+            color: #fff;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 50px;
+            background-color: #1a1a1a;
+        }
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo img {
+            height: 300px;
+            margin-right: 300px;
+        }
+        .navbar .logo .namalogo{
+            font-size: 100px;
+            position: absolute;
+            top: -50px;
+            left: 100;
+            margin: 250px;
+            font-family: marka;
+        }
+        .navbar .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        .navbar .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 50px;
+            font-weight: 1000;
+            font-family: marka;
+        }
+        .navbar .nav-links a:hover {
+            color: #d900ff;
+        }
+        .navbar .download-cv button {
+            background-color: #4b0082;
+            padding: 50px 100px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+            font-size: 60;
+        }
+        .content {
+            text-align: center;
+            padding: 900px 100px;
+            background-image: url('wallpaper utama home.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .content .text h1 {
+            font-size: 300;
+            margin: 0 300;
+            margin-top: 200;
+            left: px;
+            font-family: marka;
+        }
+        .content .text h2 {
+            font-size: 24px;
+            margin: 0 300;
+        }
+        .header .social-icons {
+            margin-top: 20px;
+        }
+        .header .social-icons a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        .about, .skills, .projects, .contact {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .about h2, .skills h2, .projects h2, .contact h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .about .info {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 20px;
+        }
+        .about .info .details {
+            text-align: left;
+        }
+        .about .info .details p {
+            margin: 10px 0;
+        }
+        .about .info .photo {
+            width: 150px;
+            height: 150px;
+            background-image: url('https://placehold.co/150x150');
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+        }
+        .skills .description {
+            margin: 20px 0;
+        }
+        .skills .tools {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .skills .tools img {
+            width: 50px;
+            height: 50px;
+        }
+        .projects .project-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .projects .project-list .project {
+            width: 200px;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            margin-top: 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4b0082;
+            color: #fff;
+            cursor: pointer;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="navbar">
+   <div class="logo">
+    <img alt="Logo" height="300" src="logo.png" width="300"/>
+    <div class="namalogo">
+    <span>
+    DAFFA
+    </span>
+    </div>
+   </div>
+   <ul class="nav-links">
+    <li>
+    <a href="#">
+     HOME
+    </a>
+    </li>
+    <li>
+    <a href="#2">
+     ABOUT
+    </a>
+    </li>
+    <li>
+    <a href="#">
+     SKILL
+    </a>
+    </li>
+    <li>
+    <a href="#">
+     PROJECT
+    </a>
+    </li>
+    <li>
+    <a href="#">
+     CONTACT
+    </a>
+    </li>
+    </ul>
+   <a class="download-cv" href="#">
+    <button>DOWNLOAD CV</button>
+   </a>
+  </div>
+  <div class="content">
+    <div class="text">
+   <h1>
+    HELLO I'M
+   </h1>
+   <h2>
+    DAFFA ISLAMY FASHA
+   </h2>
+   <div class="desain">
+   <p>
+    DESIGNER GRAFIS
+   </p>
+   </div>
+   <div class="location">
+    <b><u>MY SCHOOL LOCATION IS</u></b>s
+   </div>
+   <div class="address1">
+    <p>
+     SMK NEGERI 1 MAJA
+    </p>
+    </div>
+    <div class="address2">
+    <p>
+     JLN.PASUKAN SINDANGKASIH NO. 155 MAJA SELATAN
+    </p>
+   </div>
+   <div class="social-icons">
+    <a href="#">
+     <i class="fab fa-whatsapp">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-google-plus-g">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+   </div>
+  </div>
+  <div class="about">
+    <div class="hal2" id="2">
+   <h2>
+    ABOUT MY RESUME
+   </h2>
+   <div class="info">
+    <div class="details">
+     <p>
+      Age: 16
+     </p>
+     <p>
+      Residence: Indonesia
+     </p>
+     <p>
+      Address: Ds.Banjaran Kec.Maja
+     </p>
+     <p>
+      E-mail: Daffaislamy285@gmail.com
+     </p>
+     <p>
+      Phone: +62 8812242042
+     </p>
+     <p>
+      Instagram: @douglas_englebart
+     </p>
+    </div>
+    <div class="photo">
+    </div>
+   </div>
+  </div>
+  </div>
+  <div class="skills">
+   <h2>
+    SKILL
+   </h2>
+   <div class="description">
+    <h3>
+     GRAPHIC DESIGN SKILLS
+    </h3>
+    <p>
+     Saya memiliki keahlian dalam desain grafis, yang mencakup pembuatan konsep visual yang menarik, pengembangan identitas merek, dan penyampaian pesan melalui elemen visual yang kreatif dan efektif. Dengan latar belakang yang kuat dalam seni visual dan pengalaman menggunakan berbagai tools desain, saya mampu menciptakan karya yang sesuai dengan kebutuhan klien dan tujuan bisnis.
+    </p>
+   </div>
+   <div class="tools">
+    <img alt="Figma logo" height="50" src="https://storage.googleapis.com/a1aa/image/9fLuqAZh7Mz5bSd9Dqhslb0JPiKCU3zZ8kHHe4A7Spis00yTA.jpg" width="50"/>
+    <img alt="Canva logo" height="50" src="https://storage.googleapis.com/a1aa/image/dcPfpKlFLX2FKalsG7heqC8OA6E77zeNjUGF8XsLBvXapplnA.jpg" width="50"/>
+    <img alt="CSS logo" height="50" src="https://storage.googleapis.com/a1aa/image/QohhD3e7FmXlFaoMHZ6ceA1EsgULcIghz6QHU1oEVR6r00yTA.jpg" width="50"/>
+    <img alt="HTML logo" height="50" src="https://storage.googleapis.com/a1aa/image/wO5MWCF9KFaZAJDqw4v2ZpW2qfZTwFYMLcTYDfrvRPfVpplnA.jpg" width="50"/>
+   </div>
+  </div>
+  <div class="projects">
+   <h2>
+    PROJECT
+   </h2>
+   <div class="project-list">
+    <div class="project" style="background-image: url('https://placehold.co/200x300');">
+    </div>
+    <div class="project" style="background-image: url('https://placehold.co/200x300');">
+    </div>
+    <div class="project" style="background-image: url('https://placehold.co/200x300');">
+    </div>
+    <div class="project" style="background-image: url('https://placehold.co/200x300');">
+    </div>
+   </div>
+  </div>
+  <div class="contact">
+   <h2>
+    CONTACT
+   </h2>
+   <form>
+    <input placeholder="NAME" type="text"/>
+    <input placeholder="E-MAIL" type="email"/>
+    <textarea placeholder="MESSAGE"></textarea>
+    <button type="submit">
+     SEND MESSAGE
+    </button>
+   </form>
+  </div>
+  <div class="footer">
+   <p>
+    CopyRight 2024 - Made By Dffa.
+   </p>
+  </div>
+ </body>
+</html>
