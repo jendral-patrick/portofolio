@@ -448,7 +448,7 @@
    <div class="projects" id="PROJECT">
     <h2>
      PROJECT
-    </h2>
+    </h2>b
     <div class="project-list">
         <img alt="desain kaos" height="50" src="DESAIN KAOS.jpg" width="50"/>
         <img alt="desain poster" height="50" src="DESAIN POSTER.jpg" width="50"/>
@@ -460,18 +460,16 @@
     </div>
    </div>
    <div class="contact" id="CONTACT">
-    <h2>
-     CONTACT
-    </h2>
-    <form>
-     <input placeholder="NAME" type="text"/>
-     <input placeholder="E-MAIL" type="email"/>
-     <textarea placeholder="MESSAGE"></textarea>
-     <button type="submit">
-      SEND MESSAGE
-     </button>
+    <form class="kaitan" action="https://formspree.io/f/mrbganoe" method="POST">
+    <h2>CONTACT</h2>
+    <form action="send_email.php" method="post">
+      <input type="name" placeholder="NAME" type="text" required />
+      <input type="email" placeholder="E-MAIL" type="email" required />
+      <textarea name="message" placeholder="MESSAGE" required></textarea>
+      <button type="submit">SEND MESSAGE</button>
     </form>
-   </div>
+    </form>
+  </div>
    <div class="footer">
     <p>
      CopyRight 2024 - Made By Dffa.
