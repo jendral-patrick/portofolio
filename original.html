@@ -1,0 +1,451 @@
+<html>
+ <head>
+  <title>
+   PORTOFOLIO
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+    body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.navbar .logo .namalogo {
+    font-size: 1.5rem;
+    font-family: 'Markazi Text', serif;
+}
+
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.navbar .nav-links a:hover {
+    color: #9f99a0;
+}
+
+.navbar .download-cv button {
+    background-color: #5a00d7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 20px;
+    background-image: url('wallpaper utama home.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.content .text {
+    max-width: 600px;
+    text-align: center;
+}
+
+.content .text h1 {
+    white-space: nowrap;
+    font-size: 60px;
+    margin: 0;
+    font-family: marka ;
+    margin-right: 800px;
+}
+
+.content .text h2 {
+    white-space: nowrap;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 3px;
+    font-family: Marka ;
+    margin-right: 700px ;
+}
+
+.desain {
+    white-space: nowrap;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: -40px;
+    font-family: Marka ;
+    margin-right: 700px ;
+}
+
+.content .text .location {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: marka;
+    margin-right: 700px;
+    white-space: nowrap;
+    color: #5a00d7;
+}
+
+.content .address1, .content .address2 {
+    font-size: 30px;
+    margin: 5px 0;
+    font-family: Marka;
+    margin-top: -30px;
+    text-align: left;
+}
+
+.content .address2 {
+    margin-top: -30px;
+}
+.content .image {
+    max-width: 400px;
+    margin-top: -70px;
+}
+
+.content .image img {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 50px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #5a00d7;
+}
+
+.about, .skills, .projects, .contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #0D010E;
+    font-family: 'Markazi Text', serif;
+}
+
+.about h2, .skills h2, .projects h2 {
+    background-color: #6a0dad;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: marka;
+    text-align: center;
+    margin-top: 70px;
+}
+.info .details {
+    text-align: left;
+    font-size: 30px;
+    line-height: 0.5;
+    font-family: marka;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.photo img{
+    max-width: 200px;
+    border-radius: 10px;
+    margin-top: -300px;
+    margin-left: 700px;
+}
+.skills .description h3 {
+    font-size: 40px;
+    background-color: #4c008244;
+    margin-top: 10px;
+    padding: 5px;
+    display: inline;
+    border-radius: 5px;
+}
+.skills .paragraf {
+    font-size: 20px;
+}
+.skills .tools img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.project-list img {
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+}
+.mug img {
+    width: 500px;
+    height: 200px;
+}
+.contact h2 {
+    background-color: #6a0dad;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: marka;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea {
+    width: 600px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.contact form button {
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    font-size: 1rem;
+}
+  </style>
+ </head>
+ <body>
+<section id="HOME">
+  <div class="navbar">
+   <div class="logo">
+    <img alt="Logo" height="300" src="logo.png" width="300"/>
+    <div class="namalogo">
+    <span>
+     DAFFA
+    </span>
+    </div>
+   </div>
+   <ul class="nav-links">
+    <li>
+     <a href="#HOME">
+      HOME
+     </a>
+    </li>
+    <li>
+     <a href="#ABOUT">
+      ABOUT
+     </a>
+    </li>
+    <li>
+     <a href="#SKILL">
+      SKILL
+     </a>
+    </li>
+    <li>
+     <a href="#PROJECT">
+      PROJECT
+     </a>
+    </li>
+    <li>
+     <a href="#CONTACT">
+      CONTACT
+     </a>
+    </li>
+   </ul>
+   <a class="download-cv" href="#">
+    <button>DOWNLOAD CV</button>
+   </a>
+  </div>
+  <div class="content" id="HOME">
+   <div class="text">
+    <h1>
+     HELLO I'M
+    </h1>
+    <h2>
+     DAFFA ISLAMY FASHA
+    </h2>
+    <div class="desain">
+    <p>
+     DESIGNER GRAFIS & WEB DEPELOPMENT
+    </p>
+    </div>
+    <div class="location">
+     <b><u>MY SCHOOL LOCATION IS</u></b>
+    </div>
+    <div class="address1">
+     <p>
+      SMK NEGERI 1 MAJA
+     </p>
+     </div>
+     <div class="address2">
+     <p>
+      JLN.PASUKAN SINDANGKASIH NO. 155 MAJA SELATAN
+     </p>
+    </div>
+    <div class="social-icons">
+     <a href="https://wa.me/+628812242042">
+      <i class="fab fa-whatsapp">
+      </i>
+     </a>
+     <a href="#">
+      <i class="fab fa-google-plus-g">
+      </i>
+     </a>
+     <a href="https://www.instagram.com/douglas_englebart?igsh=MTB5M2RrMGNna2Q0cw==">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+   </div>
+   <div class="image">
+    <img alt="Person with laptop" height="600" src="animasi home.png" width="400"/>
+   </div>
+  </div>
+  <div class="about" id="ABOUT">
+    <h2>
+     ABOUT MY RESUME
+    </h2>
+    <div class="info">
+     <div class="details">
+      <p>
+       Age: 16
+      </p>
+      <p>
+       Residence: Indonesia
+      </p>
+      <p>
+       Address: Ds.Banjaran Kec.Maja
+      </p>
+      <p>
+       E-mail: Daffaislamy285@gmail.com
+      </p>
+      <p>
+       Phone: +62 8812242042
+      </p>
+      <p>
+       Instagram: @douglas_englebart
+      </p>
+     </div>
+     <div class="photo">
+        <td><img src="sketch.jpg" alt=""></td>
+     </div>
+    </div>
+   </div>
+   <div class="skills" id="SKILL">
+    <h2>
+     SKILL
+    </h2>
+    <div class="description">
+     <h3>
+      GRAPHIC DESIGN SKILLS & WEB DEPELOPMENT
+     </h3>
+     <div class="paragraf">
+     <p>
+      Saya memiliki keahlian dalam desain grafis dan web depelopment, yang mencakup pembuatan konsep visual yang menarik,</p>
+    <p>pengembangan identitas merek, dan penyampaian pesan melalui elemen visual yang kreatif dan efektif.</p>
+    <p>Dengan latar belakang yang kuat dalam seni visual dan pengalaman menggunakan berbagai tools desain modern.</p>
+    </div>
+    <h3>TOOLS</h3>
+</div>
+    <div class="tools">
+     <img alt="Figma logo" height="50" src="logofigma.png" width="50"/>
+     <img alt="Canva logo" height="50" src="logocanva.png" width="50"/>
+     <img alt="CSS logo" height="50" src="logocss.png" width="50"/>
+     <img alt="HTML logo" height="50" src="logohtml.png" width="50"/>
+    </div>
+   </div>
+   <div class="projects" id="PROJECT">
+    <h2>
+     PROJECT
+    </h2>
+    <div class="project-list">
+        <img alt="desain kaos" height="50" src="DESAIN KAOS.jpg" width="50"/>
+        <img alt="desain poster" height="50" src="DESAIN POSTER.jpg" width="50"/>
+        <img alt="desain makanan" height="50" src="DESAIN MAKANAN.jpg" width="50"/>
+        <img alt="desain hp" height="50" src="DESAIN HP.jpg" width="50"/>
+    </div>
+    <div class="mug">
+        <img alt="desain mug" height="50" src="desain mug.jpg" width="50"/>
+    </div>
+   </div>
+   <div class="contact" id="CONTACT">
+    <form class="kaitan" action="https://formspree.io/f/mrbganoe" method="POST">
+    <h2>CONTACT</h2>
+    <form action="send_email.php" method="post">
+      <input type="name" placeholder="NAME" type="text" required />
+      <input type="email" placeholder="E-MAIL" type="email" required />
+      <textarea name="message" placeholder="MESSAGE" required></textarea>
+      <button type="submit">SEND MESSAGE</button>
+    </form>
+    </form>
+  </div>
+   <div class="footer">
+    <p>
+     CopyRight 2024 - Made By Dffa.
+    </p>
+   </div>
+  </body>
+ </html>
+ </body>
+</html>
+</section>
