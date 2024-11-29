@@ -53,7 +53,11 @@
 }
 
 .navbar .nav-links li {
+    display: inline-block;
     margin: 0 15px;
+    margin-left: 50px;
+    left: -20px;
+    transform: translateX(-50px);
 }
 
 .navbar .nav-links a {
@@ -66,19 +70,6 @@
 .navbar .nav-links a:hover {
     color: #9f99a0;
 }
-
-.navbar .download-cv button {
-    background-color: #5a00d7;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
-    margin-right: 50px;
-}
-
 .content {
     display: flex;
     align-items: center;
@@ -312,9 +303,7 @@
      </a>
     </li>
    </ul>
-   <a class="download-cv" href="#">
-    <button>DOWNLOAD CV</button>
-   </a>
+
   </div>
   <div class="content" id="HOME">
    <div class="text">
@@ -326,7 +315,7 @@
     </h2>
     <div class="desain">
     <p>
-     DESIGNER GRAFIS & WEB DEPELOPMENT
+     DESIGNER GRAFIS & WEB DEPELOPER
     </p>
     </div>
     <div class="location">
@@ -446,6 +435,11 @@
    </div>
   </body>
  </html>
+ <script>
+    var typed=new typed(".desain", {
+        String:["designer grafis" , ""]
+    }) 
+ </script>
  </body>
 </html>
 </section>
